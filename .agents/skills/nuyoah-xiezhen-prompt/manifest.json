@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "name": "nuyoah-xiezhen-prompt",
+  "displayName": "南鸢写真提示词",
+  "version": "1.1.0",
+  "license": "MIT",
+  "source": "https://github.com/nuyoah-ai-works/nuyoah-xiezhen-prompt",
+  "sourceCommit": "fea27d7f2deaeda2bc99a5a032bc1e16d4869c9d",
+  "releaseDigest": "ba1a468cd04d3def703d860568765e44d45dd57d19ed71ce457dbf5c8b9667b6",
+  "publishedAt": "2026-08-26T12:46:37Z",
+  "homepage": "https://knowledge.nuyoahonline.com/skills/nuyoah-xiezhen-prompt",
+  "installCommand": "npx skills add nuyoah-ai-works/nuyoah-xiezhen-prompt -g -y",
+  "updateCommand": "npx skills update nuyoah-xiezhen-prompt -g -y",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 10,
+      "sha256": "cf237c7aff44efbe6e502e645c3e06da03a69d7bdeb43392108ef3348143417e"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1409,
+      "sha256": "aa8125c1803a261f348ea17bf231d4e77d8638ce833eb08d507426290e7accb1"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 627,
+      "sha256": "3e9bf2bc0e14f27a051ed573dd9f0460c7517d2e1c5b7f49ed9d82df89da1adb"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1070,
+      "sha256": "b5fde44b81590f0f06dd9d1af6a13a79eb322ba219c2578369f5b258fdf07e9b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3501,
+      "sha256": "2ab097bd4f125d1bbd19700a7bcbdb80b9df58054c45b73897efe957a3914d03"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 6995,
+      "sha256": "e73b71995fa141d85283f1a1e0a0e1e1d4343e3ff4d2b19d9083099a2bfa5d52"
+    },
+    {
+      "path": "SOURCE.md",
+      "bytes": 548,
+      "sha256": "15a411f5d0d0cfc454f10ea74b6700d49e6804b90fdb5b1f69a2f071eccac5f9"
+    },
+    {
+      "path": "agents/interface.yaml",
+      "bytes": 648,
+      "sha256": "7ad6f9abc216ab9398cd695e70a2bead515edef073a33ef39923002cd2a11c82"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 282,
+      "sha256": "80e70be188f9ca813bd78cf279f312ca8ec983cfb87d6ffc4124c046e142097c"
+    },
+    {
+      "path": "evals/production_reshoot_cases.json",
+      "bytes": 12322,
+      "sha256": "d26ab3fdc9ad3b921727aee672571f282eaeb7bc22cd266f43081b67d6843c5c"
+    },
+    {
+      "path": "evals/semantic_config.json",
+      "bytes": 969,
+      "sha256": "45fa71f5c5a2ba032622d62b74cfc18935f88959a62c5e66ac8c23fd040df18e"
+    },
+    {
+      "path": "evals/skin_reflection_cases.json",
+      "bytes": 1632,
+      "sha256": "74d2d4dc9968070a8ceb463fabc840b6f259aa5c96b1a317fc28a4d2c8c0720b"
+    },
+    {
+      "path": "evals/trigger_cases.json",
+      "bytes": 1722,
+      "sha256": "0646cfaaf642ec3275fb7351c74a721effbe1cf0dd4aef8b62fcd8339634243e"
+    },
+    {
+      "path": "references/production-reshoot.md",
+      "bytes": 24101,
+      "sha256": "69c7df3780814ce3f352a3dfb116a553b51ef1bad5261a7b87c98b36a8074d70"
+    },
+    {
+      "path": "references/prompt-logic.md",
+      "bytes": 60412,
+      "sha256": "766501bcefeb5a9ca6cd9a98dd522fd5292d7c56f5e657d487f13984b1fb1e8a"
+    },
+    {
+      "path": "tests/run_contract_tests.py",
+      "bytes": 9818,
+      "sha256": "886905301938ce08f57e8706c663f7c81105103623ffcdf1a3ed94d636e4682b"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+interface:
+  display_name: "南鸢写真提示词"
+  short_description: "写真提示词、参考组复拍与 Codex 生图闭环"
+  default_prompt: "使用 $nuyoah-xiezhen-prompt，把我喜欢的一组写真还原成同一摄影企划，并为原创人物重新设计新分镜。"
+compatibility:
+  canonical_format: "agent-skills"
+  adapter_targets: ["openai", "generic"]
+  activation: {mode: "manual", paths: []}
+  execution: {context: "inline", shell: "bash"}
+  trust: {source_tier: "local", remote_inline_execution: "forbid", remote_metadata_policy: "allow-metadata-only"}
+  degradation: {openai: "metadata-adapter", generic: "neutral-source"}
